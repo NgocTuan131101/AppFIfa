@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.MainActivityOTP"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:src="@drawable/quayve"
+            android:background="@drawable/boso"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã OTP 6 số đã được gửi về số máy"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+            android:layout_gravity="center"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/OTP1"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/boso"
+            android:gravity="center"
+            android:hint="1"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/OTP2"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/boso"
+            android:gravity="center"
+            android:hint="1"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/OTP3"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/boso"
+            android:gravity="center"
+            android:hint="1"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/OTP4"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/boso"
+            android:gravity="center"
+            android:hint="1"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/OTP5"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/boso"
+            android:gravity="center"
+            android:hint="1"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/OTP6"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/boso"
+            android:gravity="center"
+            android:hint="1"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="30dp"
+            android:text="Xác nhận "
+            android:textSize="20dp"
+            android:id="@+id/xacnhan"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:gravity="center_horizontal"
+            android:text="Không nhận được mã?"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Gửi lại "
+            android:textColor="#1CCA0F"
+            android:textSize="20dp"
+            android:id="@+id/guilaiOTP"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hoặc thử bằng "
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="số điện thoại khác "
+            android:textSize="20dp"
+            android:textColor="#1CCA0F"/>
+
+    </LinearLayout>
+
+</LinearLayout>
